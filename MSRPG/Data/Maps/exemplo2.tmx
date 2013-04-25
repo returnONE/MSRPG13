@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="10" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="tile2" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="../Images/tile2.png" width="265" height="199"/>
+  <tile id="9">
+   <properties>
+    <property name="AnimationID" value="6"/>
+    <property name="ObjectID" value="1"/>
+   </properties>
+  </tile>
+  <tile id="29">
+   <properties>
+    <property name="AnimationID" value="5"/>
+    <property name="ObjectID" value="0"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Camada de Tiles 1" width="10" height="10">
+  <data encoding="base64" compression="zlib">
+   eJyTY2BgkKMB5kLCxKol1jx0TKk7qOlOSjEACfgKPQ==
+  </data>
+ </layer>
+</map>

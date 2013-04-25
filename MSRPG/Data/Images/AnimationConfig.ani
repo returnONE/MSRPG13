@@ -1,0 +1,35 @@
+1. Nome da constante. Somente para referência.
+2. Código do objeto (animação completa).
+3. Código desse estado.
+4. x0
+5. y0
+6. x1
+7. y1
+8. xRelative
+9. yRelative
+
+          BUTTON1/NORMAL.000001.00.0.0.328.57.0.0
+		                .000001.00.0.58.328.114.0.0
+         BUTTON1/PRESSED.000001.01.0.58.328.114.0.0
+      BUTTON1/MOUSE_OVER.000001.02.0.58.328.114.0.0
+    BUTTON1/DISABLED.000001.03.0.58.328.114.0.0
+	
+<?xml version="1.0"?>
+<OBJECT>
+	<OBJECT_CONSTANT></OBJECT_CONSTANT>
+	<OBJECT_CODE></OBJECT_CODE>
+	<NUMBER_OF_OBJECTS></NUMBER_OF_OBJECTS>
+	<STATE>
+		<STATE_CONSTANT></STATE_CONSTANT>
+		<STATE_CODE></STATE_CODE>
+		<NUMBER_OF_STATES></NUMBER_OF_STATES>
+		<FRAME>
+			<X0>
+			<Y0>
+			<X1>
+			<Y1>
+			<XRELATIVE>
+			<YRELATIVE>
+		</FRAME>
+	</STATE>
+</OBJECT>
