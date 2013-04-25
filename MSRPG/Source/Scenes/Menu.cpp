@@ -50,7 +50,12 @@ void Menu::Setup()
 
 
 	//nova mensagem na tela
-	ListManager::GetListManager()->NewMessageToTheList("Play Game", FONT_CENTURY_GOTHIC, 100, 100, 5000, 0);
+	ListManager::GetListManager()->NewMessageToTheList("Play Game", FONT_CENTURY_GOTHIC, 448, 354, 0, 0);
+	ListManager::GetListManager()->NewMessageToTheList("Options", FONT_CENTURY_GOTHIC, 468, 270, 0, 0);
+	ListManager::GetListManager()->NewMessageToTheList("Credits", FONT_CENTURY_GOTHIC, 471, 185, 0, 0);
+
+	ListManager::GetListManager()->NewMessageToTheList("Press 1 for sfx test", FONT_CENTURY_GOTHIC, 350, 630, 0, 0);
+	ListManager::GetListManager()->NewMessageToTheList("Press 2 for music test", FONT_CENTURY_GOTHIC, 350, 600, 0, 0);
 
 
 	//Load the music

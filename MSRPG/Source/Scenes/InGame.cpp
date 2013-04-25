@@ -61,7 +61,7 @@ void InGame::Input()
 				switch(event.key.keysym.sym){
 			case SDLK_LEFT:
 				if(mMainCharacter->GetState() == STAND_LEFT){
-					mMainCharacter->SetState(WALKING_LEFT);
+					mMainCharacter->SetState(STAND_LEFT);
 				}
 				else{
 					mMainCharacter->SetState(STAND_LEFT);
@@ -69,14 +69,14 @@ void InGame::Input()
 				break;
 			case SDLK_RIGHT:
 				if(mMainCharacter->GetState() == STAND_RIGHT){
-					mMainCharacter->SetState(WALKING_RIGHT);
+					mMainCharacter->SetState(STAND_RIGHT);
 				}
 				else{
 					mMainCharacter->SetState(STAND_RIGHT);
 				}
 				break;
 			case SDLK_UP:
-				if(mMainCharacter->GetState() == STAND_UP){
+				if(mMainCharacter->GetState() == WALKING_UP){
 					mMainCharacter->SetState(WALKING_UP);
 					//mMainCharacter->MoveUp(characterMatrix);
 				}

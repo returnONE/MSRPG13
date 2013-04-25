@@ -136,7 +136,7 @@ void Game::InitWindow()
     glEnable( GL_BLEND );
     glBlendFunc (GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 
-	glClearColor(1.0, 1.0, 0.0, 0.0);
+	glClearColor(0.3, 0.3, 0.0, 0.0);
 }
 
 void Game::FirstStateChange(Scene* newState)
