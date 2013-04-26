@@ -6,6 +6,7 @@
 	ProjectGUID="{BF7D1BFB-571A-41D4-9C36-1FCBE85560E3}"
 	RootNamespace="MSRPG"
 	Keyword="Win32Proj"
+	AssemblyReferenceSearchPaths="&quot;.\Packages\SDL\SDL-1.2.14\lib&quot;"
 	TargetFrameworkVersion="196613"
 	>
 	<Platforms>
@@ -88,6 +89,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+				CommandLine="copy &quot;$(ProjectDir)\Packages\SDL\SDL-1.2.14\lib\SDL.dll&quot; &quot;$(ProjectDir)&quot; /y"
 			/>
 		</Configuration>
 		<Configuration
